@@ -1,0 +1,1023 @@
+{
+ "kelas": [
+  "Chlorella",
+  "Nannochloropsis",
+  "Spirulina"
+ ],
+ "n_per_kelas": {
+  "Chlorella": 8,
+  "Nannochloropsis": 7,
+  "Spirulina": 8
+ },
+ "n_per_kelas_lensa": {
+  "Chlorella": {
+   "f15": 6,
+   "f20": 2
+  },
+  "Nannochloropsis": {
+   "f15": 4,
+   "f20": 3
+  },
+  "Spirulina": {
+   "f15": 6,
+   "f20": 2
+  }
+ },
+ "jumlah_permutasi": 1000,
+ "titik_sumbu": 64,
+ "peluang_acak_kelas": 0.3333333333333333,
+ "kelas_mayoritas": 0.34782608695652173,
+ "prediksi_kelas": {
+  "profil pita (3 x 64) | 1-NN": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "loo_akurasi_seimbang": 1.0,
+   "loo_matriks_kebingungan": [
+    [
+     8,
+     0,
+     0
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     0,
+     0,
+     8
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.982608695652174,
+   "lipat5_min": 0.9130434782608695,
+   "lipat5_maks": 1.0
+  },
+  "profil pita (3 x 64) | regresi logistik L2": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "loo_akurasi_seimbang": 1.0,
+   "loo_matriks_kebingungan": [
+    [
+     8,
+     0,
+     0
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     0,
+     0,
+     8
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.982608695652174,
+   "lipat5_min": 0.9130434782608695,
+   "lipat5_maks": 1.0
+  },
+  "rerata RGB-HSV dalam pita | 1-NN": {
+   "loo_benar": 20,
+   "n": 23,
+   "loo_akurasi": 0.8695652173913043,
+   "loo_wilson95": [
+    0.6787251772990404,
+    0.9546234090636876
+   ],
+   "loo_akurasi_seimbang": 0.8690476190476191,
+   "loo_matriks_kebingungan": [
+    [
+     7,
+     0,
+     1
+    ],
+    [
+     0,
+     6,
+     1
+    ],
+    [
+     1,
+     0,
+     7
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.8565217391304347,
+   "lipat5_min": 0.8260869565217391,
+   "lipat5_maks": 0.9130434782608695
+  },
+  "rerata RGB-HSV dalam pita | regresi logistik L2": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "loo_akurasi_seimbang": 1.0,
+   "loo_matriks_kebingungan": [
+    [
+     8,
+     0,
+     0
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     0,
+     0,
+     8
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.982608695652174,
+   "lipat5_min": 0.9130434782608695,
+   "lipat5_maks": 1.0
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | 1-NN": {
+   "loo_benar": 16,
+   "n": 23,
+   "loo_akurasi": 0.6956521739130435,
+   "loo_wilson95": [
+    0.49134243731240795,
+    0.8439597554678597
+   ],
+   "loo_akurasi_seimbang": 0.6964285714285715,
+   "loo_matriks_kebingungan": [
+    [
+     7,
+     0,
+     1
+    ],
+    [
+     2,
+     5,
+     0
+    ],
+    [
+     4,
+     0,
+     4
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.6782608695652174,
+   "lipat5_min": 0.5217391304347826,
+   "lipat5_maks": 0.7391304347826086
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | regresi logistik L2": {
+   "loo_benar": 16,
+   "n": 23,
+   "loo_akurasi": 0.6956521739130435,
+   "loo_wilson95": [
+    0.49134243731240795,
+    0.8439597554678597
+   ],
+   "loo_akurasi_seimbang": 0.7023809523809524,
+   "loo_matriks_kebingungan": [
+    [
+     5,
+     0,
+     3
+    ],
+    [
+     0,
+     6,
+     1
+    ],
+    [
+     3,
+     0,
+     5
+    ]
+   ],
+   "p_permutasi_loo": 0.000999000999000999,
+   "lipat5_rerata": 0.7086956521739131,
+   "lipat5_min": 0.6086956521739131,
+   "lipat5_maks": 0.782608695652174
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | 1-NN": {
+   "loo_benar": 14,
+   "n": 23,
+   "loo_akurasi": 0.6086956521739131,
+   "loo_wilson95": [
+    0.4078552239138171,
+    0.7784237720752205
+   ],
+   "loo_akurasi_seimbang": 0.6130952380952381,
+   "loo_matriks_kebingungan": [
+    [
+     6,
+     0,
+     2
+    ],
+    [
+     1,
+     5,
+     1
+    ],
+    [
+     5,
+     0,
+     3
+    ]
+   ],
+   "p_permutasi_loo": 0.011988011988011988,
+   "lipat5_rerata": 0.558695652173913,
+   "lipat5_min": 0.43478260869565216,
+   "lipat5_maks": 0.6521739130434783
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | regresi logistik L2": {
+   "loo_benar": 13,
+   "n": 23,
+   "loo_akurasi": 0.5652173913043478,
+   "loo_wilson95": [
+    0.3681137508501646,
+    0.743653646743258
+   ],
+   "loo_akurasi_seimbang": 0.5714285714285715,
+   "loo_matriks_kebingungan": [
+    [
+     3,
+     0,
+     5
+    ],
+    [
+     1,
+     5,
+     1
+    ],
+    [
+     3,
+     0,
+     5
+    ]
+   ],
+   "p_permutasi_loo": 0.017982017982017984,
+   "lipat5_rerata": 0.6195652173913043,
+   "lipat5_min": 0.43478260869565216,
+   "lipat5_maks": 0.7391304347826086
+  }
+ },
+ "baseline_interseksi": {
+  "histogram interseksi HSV seluruh citra (cara TA) | 1-NN": {
+   "loo_benar": 15,
+   "n": 23,
+   "loo_akurasi": 0.6521739130434783,
+   "loo_wilson95": [
+    0.44890335377263,
+    0.8118872406120227
+   ],
+   "p_permutasi_loo": 0.000999000999000999
+  },
+  "histogram interseksi HSV dalam pita (cara TA) | 1-NN": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "p_permutasi_loo": 0.000999000999000999
+  }
+ },
+ "jumlah_adegan": 21,
+ "tinggalkan_satu_adegan": {
+  "profil pita (3 x 64) | 1-NN": {
+   "benar": 23,
+   "n": 23
+  },
+  "profil pita (3 x 64) | regresi logistik L2": {
+   "benar": 23,
+   "n": 23
+  },
+  "rerata RGB-HSV dalam pita | 1-NN": {
+   "benar": 20,
+   "n": 23
+  },
+  "rerata RGB-HSV dalam pita | regresi logistik L2": {
+   "benar": 23,
+   "n": 23
+  }
+ },
+ "prediksi_lensa": {
+  "profil pita (3 x 64) | 1-NN": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "loo_akurasi_seimbang": 1.0,
+   "loo_matriks_kebingungan": [
+    [
+     16,
+     0
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.9934782608695653,
+   "lipat5_min": 0.9130434782608695,
+   "lipat5_maks": 1.0
+  },
+  "profil pita (3 x 64) | regresi logistik L2": {
+   "loo_benar": 23,
+   "n": 23,
+   "loo_akurasi": 1.0,
+   "loo_wilson95": [
+    0.8568833815495731,
+    1.0
+   ],
+   "loo_akurasi_seimbang": 1.0,
+   "loo_matriks_kebingungan": [
+    [
+     16,
+     0
+    ],
+    [
+     0,
+     7
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 1.0,
+   "lipat5_min": 1.0,
+   "lipat5_maks": 1.0
+  },
+  "rerata RGB-HSV dalam pita | 1-NN": {
+   "loo_benar": 16,
+   "n": 23,
+   "loo_akurasi": 0.6956521739130435,
+   "loo_wilson95": [
+    0.49134243731240795,
+    0.8439597554678597
+   ],
+   "loo_akurasi_seimbang": 0.6607142857142857,
+   "loo_matriks_kebingungan": [
+    [
+     12,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.7108695652173913,
+   "lipat5_min": 0.6086956521739131,
+   "lipat5_maks": 0.782608695652174
+  },
+  "rerata RGB-HSV dalam pita | regresi logistik L2": {
+   "loo_benar": 14,
+   "n": 23,
+   "loo_akurasi": 0.6086956521739131,
+   "loo_wilson95": [
+    0.4078552239138171,
+    0.7784237720752205
+   ],
+   "loo_akurasi_seimbang": 0.4375,
+   "loo_matriks_kebingungan": [
+    [
+     14,
+     2
+    ],
+    [
+     7,
+     0
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.65,
+   "lipat5_min": 0.4782608695652174,
+   "lipat5_maks": 0.7391304347826086
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | 1-NN": {
+   "loo_benar": 18,
+   "n": 23,
+   "loo_akurasi": 0.782608695652174,
+   "loo_wilson95": [
+    0.5809651698373599,
+    0.9033602197341379
+   ],
+   "loo_akurasi_seimbang": 0.7633928571428572,
+   "loo_matriks_kebingungan": [
+    [
+     13,
+     3
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.8021739130434783,
+   "lipat5_min": 0.7391304347826086,
+   "lipat5_maks": 0.8695652173913043
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | regresi logistik L2": {
+   "loo_benar": 16,
+   "n": 23,
+   "loo_akurasi": 0.6956521739130435,
+   "loo_wilson95": [
+    0.49134243731240795,
+    0.8439597554678597
+   ],
+   "loo_akurasi_seimbang": 0.5803571428571428,
+   "loo_matriks_kebingungan": [
+    [
+     14,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.6891304347826088,
+   "lipat5_min": 0.6521739130434783,
+   "lipat5_maks": 0.7391304347826086
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | 1-NN": {
+   "loo_benar": 19,
+   "n": 23,
+   "loo_akurasi": 0.8260869565217391,
+   "loo_wilson95": [
+    0.6286235235977385,
+    0.9302134643693744
+   ],
+   "loo_akurasi_seimbang": 0.7946428571428572,
+   "loo_matriks_kebingungan": [
+    [
+     14,
+     2
+    ],
+    [
+     2,
+     5
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.8217391304347826,
+   "lipat5_min": 0.782608695652174,
+   "lipat5_maks": 0.8695652173913043
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | regresi logistik L2": {
+   "loo_benar": 16,
+   "n": 23,
+   "loo_akurasi": 0.6956521739130435,
+   "loo_wilson95": [
+    0.49134243731240795,
+    0.8439597554678597
+   ],
+   "loo_akurasi_seimbang": 0.5803571428571428,
+   "loo_matriks_kebingungan": [
+    [
+     14,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "p_permutasi_loo": null,
+   "lipat5_rerata": 0.6869565217391304,
+   "lipat5_min": 0.6521739130434783,
+   "lipat5_maks": 0.7391304347826086
+  }
+ },
+ "alih_f15_ke_f20": {
+  "profil pita (3 x 64) | 1-NN": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 5,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "profil pita (3 x 64) | regresi logistik L2": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 5,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV dalam pita | 1-NN": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 5,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Spirulina",
+     "Nannochloropsis"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV dalam pita | regresi logistik L2": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 5,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Spirulina",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Chlorella",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | 1-NN": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 4,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Spirulina"
+    ],
+    [
+     "Spirulina",
+     "Spirulina"
+    ],
+    [
+     "Chlorella",
+     "Spirulina"
+    ],
+    [
+     "Chlorella",
+     "Spirulina"
+    ],
+    [
+     "Nannochloropsis",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV latar (kontrol negatif) | regresi logistik L2": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 4,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Spirulina"
+    ],
+    [
+     "Spirulina",
+     "Spirulina"
+    ],
+    [
+     "Chlorella",
+     "Spirulina"
+    ],
+    [
+     "Chlorella",
+     "Spirulina"
+    ],
+    [
+     "Nannochloropsis",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | 1-NN": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 2,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Nannochloropsis"
+    ],
+    [
+     "Spirulina",
+     "Nannochloropsis"
+    ],
+    [
+     "Chlorella",
+     "Nannochloropsis"
+    ],
+    [
+     "Chlorella",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  },
+  "rerata RGB-HSV seluruh citra (cara TA) | regresi logistik L2": {
+   "latih": "f15",
+   "uji": "f20",
+   "n_uji": 7,
+   "benar": 3,
+   "pasangan": [
+    [
+     "Spirulina",
+     "Spirulina"
+    ],
+    [
+     "Spirulina",
+     "Nannochloropsis"
+    ],
+    [
+     "Chlorella",
+     "Spirulina"
+    ],
+    [
+     "Chlorella",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Chlorella"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ],
+    [
+     "Nannochloropsis",
+     "Nannochloropsis"
+    ]
+   ]
+  }
+ },
+ "panjang_pita_berwarna_px_median": {
+  "f15": 648.4222577427263,
+  "f20": 336.6110708223443
+ },
+ "nm_per_px_kasar_asumsi_400_700": {
+  "f15": 0.46266147779126765,
+  "f20": 0.8912362842585567
+ },
+ "fraksi_jenuh_pita_maks": 0.0693359375,
+ "citra": [
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 1.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 793.2405821179298,
+   "lebar_px": 173.01159064287864,
+   "sudut_sumbu_derajat": 84.85949596189458,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 629.2897551384623,
+   "lebar_px": 137.10961276199023,
+   "sudut_sumbu_derajat": 87.64346553959344,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 3.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 680.5662415454968,
+   "lebar_px": 121.58866085542927,
+   "sudut_sumbu_derajat": 82.72720501816252,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 4.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 999.596720308846,
+   "lebar_px": 217.9282859071265,
+   "sudut_sumbu_derajat": 82.12533340335594,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 737.3997971028731,
+   "lebar_px": 153.71396101631223,
+   "sudut_sumbu_derajat": 84.95549729009069,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 6.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "panjang_px": 813.022391801149,
+   "lebar_px": 169.85986690354815,
+   "sudut_sumbu_derajat": 81.66829920928774,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "panjang_px": 869.1842760663687,
+   "lebar_px": 132.25399673936198,
+   "sudut_sumbu_derajat": 85.95044467416909,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "panjang_px": 807.1786414494588,
+   "lebar_px": 124.88289677256286,
+   "sudut_sumbu_derajat": 86.40917894565185,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "panjang_px": 869.6772922506161,
+   "lebar_px": 163.81381408820388,
+   "sudut_sumbu_derajat": 88.1540435789876,
+   "fraksi_jenuh_pita": 0.0087890625
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 4.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "panjang_px": 805.0190862707672,
+   "lebar_px": 126.02463412559045,
+   "sudut_sumbu_derajat": 87.6840831167379,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 1.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 774.3543321863709,
+   "lebar_px": 123.51165821916288,
+   "sudut_sumbu_derajat": 87.05338060883962,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 2.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 781.859086396172,
+   "lebar_px": 135.27832368102466,
+   "sudut_sumbu_derajat": 86.9896606713332,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 752.2793264187222,
+   "lebar_px": 122.52612228358545,
+   "sudut_sumbu_derajat": 88.8448615537995,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 750.0762382428052,
+   "lebar_px": 148.47617832047243,
+   "sudut_sumbu_derajat": 91.63190510498431,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 758.9549648668852,
+   "lebar_px": 159.31353583817963,
+   "sudut_sumbu_derajat": 90.1416872400666,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 6.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "panjang_px": 726.8832346801356,
+   "lebar_px": 111.45268657698205,
+   "sudut_sumbu_derajat": 91.38314646875997,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "panjang_px": 1011.969793993454,
+   "lebar_px": 187.11688186777747,
+   "sudut_sumbu_derajat": 90.53078250426687,
+   "fraksi_jenuh_pita": 0.001953125
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "panjang_px": 1014.9514979404252,
+   "lebar_px": 186.46542286180514,
+   "sudut_sumbu_derajat": 90.39357951779945,
+   "fraksi_jenuh_pita": 0.0693359375
+  },
+  {
+   "jalur": "data/Testing/f.20/c1.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "panjang_px": 426.1162973736559,
+   "lebar_px": 81.76191511116924,
+   "sudut_sumbu_derajat": 87.97105472080632,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/f.20/c2.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "panjang_px": 403.93328498681313,
+   "lebar_px": 81.11555367921927,
+   "sudut_sumbu_derajat": 89.4822865746319,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/f.20/n1.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "panjang_px": 367.93550474948466,
+   "lebar_px": 34.54756748995305,
+   "sudut_sumbu_derajat": 91.06826641223624,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/f.20/n2.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "panjang_px": 380.04973043792944,
+   "lebar_px": 34.06522709206187,
+   "sudut_sumbu_derajat": 88.68160338451479,
+   "fraksi_jenuh_pita": 0.0
+  },
+  {
+   "jalur": "data/Testing/f.20/n3.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "panjang_px": 364.31827722604606,
+   "lebar_px": 38.48703797279065,
+   "sudut_sumbu_derajat": 88.44777755040279,
+   "fraksi_jenuh_pita": 0.0
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "semua": {
+  "n": 23,
+  "n_per_kelas": {
+   "Chlorella": 8,
+   "Nannochloropsis": 7,
+   "Spirulina": 8
+  },
+  "kelas_mayoritas": [
+   "Chlorella",
+   "Spirulina"
+  ],
+  "benar": 8,
+  "akurasi": 0.34782608695652173,
+  "wilson95": [
+   0.1881127593879773,
+   0.55109664622737
+  ],
+  "peluang_acak": 0.3333333333333333,
+  "loo_dummy_most_frequent_benar": 0
+ },
+ "f15_saja": {
+  "n": 16,
+  "n_per_kelas": {
+   "Chlorella": 6,
+   "Nannochloropsis": 4,
+   "Spirulina": 6
+  },
+  "kelas_mayoritas": [
+   "Chlorella",
+   "Spirulina"
+  ],
+  "benar": 6,
+  "akurasi": 0.375,
+  "wilson95": [
+   0.18481232558863633,
+   0.6135895945449727
+  ],
+  "peluang_acak": 0.3333333333333333,
+  "loo_dummy_most_frequent_benar": 0
+ }
+}

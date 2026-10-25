@@ -1,0 +1,241 @@
+{
+ "titik_sumbu": 64,
+ "titik_lintang": 16,
+ "u7": {
+  "pustaka_kompresi": "OpenCV 4.11.0",
+  "sisi_kompres_px": 1600,
+  "kualitas_jpeg": [
+   85,
+   70,
+   50
+  ],
+  "sisi_panjang_px_per_lensa": {
+   "f15": [
+    4080
+   ],
+   "f20": [
+    1600,
+    4080
+   ]
+  },
+  "n_f15": 16,
+  "lensa_f15_asli_tertebak_f15": {
+   "1-NN": 16,
+   "regresi logistik L2": 16
+  },
+  "varian": {
+   "kompres ulang 1600 px, JPEG 85": {
+    "jenis": "kompresi",
+    "korelasi_profil_median": 0.999837487398672,
+    "korelasi_profil_min": 0.9995476354470443,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     }
+    }
+   },
+   "kompres ulang 1600 px, JPEG 70": {
+    "jenis": "kompresi",
+    "korelasi_profil_median": 0.9996991248688141,
+    "korelasi_profil_min": 0.9966154576405487,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     }
+    }
+   },
+   "kompres ulang 1600 px, JPEG 50": {
+    "jenis": "kompresi",
+    "korelasi_profil_median": 0.9994774803823733,
+    "korelasi_profil_min": 0.9982888362073252,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16,
+      "lensa_tertebak": {
+       "f15": 16,
+       "f20": 0
+      }
+     }
+    }
+   },
+   "intensitas x0.8": {
+    "jenis": "intensitas",
+    "korelasi_profil_median": 0.9975641109908436,
+    "korelasi_profil_min": 0.9724669258648991,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   },
+   "intensitas x1.2": {
+    "jenis": "intensitas",
+    "korelasi_profil_median": 0.9975771852046682,
+    "korelasi_profil_min": 0.9837911392868239,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   },
+   "ROI ujung 5%": {
+    "jenis": "ROI",
+    "korelasi_profil_median": 0.9916905097824988,
+    "korelasi_profil_min": 0.9886834305880071,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   },
+   "ROI ujung 15%": {
+    "jenis": "ROI",
+    "korelasi_profil_median": 0.9928179342052166,
+    "korelasi_profil_min": 0.990196679669682,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   },
+   "ROI lintang 5-95": {
+    "jenis": "ROI",
+    "korelasi_profil_median": 0.9989687682892374,
+    "korelasi_profil_min": 0.9979026498199322,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   },
+   "ROI lintang 20-80": {
+    "jenis": "ROI",
+    "korelasi_profil_median": 0.9990401393058634,
+    "korelasi_profil_min": 0.9902620623322472,
+    "klasifikasi": {
+     "1-NN": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     },
+     "regresi logistik L2": {
+      "latih_asli_uji_varian_benar": 16,
+      "semua_varian_loo_benar": 16,
+      "n": 16
+     }
+    }
+   }
+  }
+ },
+ "u8": {
+  "jumlah_lajur": 4,
+  "titik_lintang_per_lajur": 4,
+  "jumlah_kelompok_hampir_identik": 21,
+  "hasil": {
+   "1-NN": {
+    "tinggalkan satu foto": {
+     "benar_per_foto": 23,
+     "n_foto": 23,
+     "benar_per_patch": 92,
+     "n_patch": 92
+    },
+    "tinggalkan satu kelompok hampir identik": {
+     "benar_per_foto": 23,
+     "n_foto": 23,
+     "benar_per_patch": 92,
+     "n_patch": 92
+    }
+   },
+   "regresi logistik L2": {
+    "tinggalkan satu foto": {
+     "benar_per_foto": 23,
+     "n_foto": 23,
+     "benar_per_patch": 92,
+     "n_patch": 92
+    },
+    "tinggalkan satu kelompok hampir identik": {
+     "benar_per_foto": 23,
+     "n_foto": 23,
+     "benar_per_patch": 92,
+     "n_patch": 92
+    }
+   }
+  }
+ }
+}

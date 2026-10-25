@@ -1,0 +1,714 @@
+{
+ "kriteria_ditemukan": "seluruh grid di dalam bingkai citra, fraksi titik sumbu yang lajurnya mayoritas di topeng > 0.5, dan rona naik sepanjang sumbu (Spearman rho > 0, p < 0.05)",
+ "n": 23,
+ "ditemukan": 23,
+ "ditemukan_per_kelas_lensa": {
+  "Chlorella": {
+   "f15": {
+    "ditemukan": 6,
+    "n": 6
+   },
+   "f20": {
+    "ditemukan": 2,
+    "n": 2
+   }
+  },
+  "Nannochloropsis": {
+   "f15": {
+    "ditemukan": 4,
+    "n": 4
+   },
+   "f20": {
+    "ditemukan": 3,
+    "n": 3
+   }
+  },
+  "Spirulina": {
+   "f15": {
+    "ditemukan": 6,
+    "n": 6
+   },
+   "f20": {
+    "ditemukan": 2,
+    "n": 2
+   }
+  }
+ },
+ "fraksi_sumbu_dalam_topeng_min": 0.75,
+ "fraksi_sumbu_dalam_topeng_maks": 0.859375,
+ "spearman_rona_sumbu_min": 0.9168374180708059,
+ "koreksi_sampel_kecil_lms": {
+  "rumus": "1.4826 x (1 + 5/(n - 2)) Rousseeuw-Leroy 1987 tidak dipakai; model memakai 1.4826 saja",
+  "jumlah_titik_inti_min": 4295,
+  "jumlah_titik_inti_median": 7354.0,
+  "jumlah_titik_inti_maks": 14382,
+  "faktor_koreksi_maks": 1.0011646866992778,
+  "titik_pita_bertambah_total": 10
+ },
+ "p_spearman_rona_sumbu_maks": 2.0812943350670178e-26,
+ "suku_ambang_aktif": {
+  "BATAS_KROMA": 21,
+  "FRAKSI_KROMA": 2
+ },
+ "panjang_per_lensa": {
+  "f15": {
+   "n": 16,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f15"
+   ],
+   "panjang_pita_berwarna_px_median": 648.4222577427263,
+   "panjang_relatif_sisi_panjang_median": 0.15892702395655056
+  },
+  "f20": {
+   "n": 7,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 336.6110708223443,
+   "panjang_relatif_sisi_panjang_median": 0.20669317687774796
+  }
+ },
+ "panjang_per_ukuran": {
+  "1600 x 1204": {
+   "n": 3,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 336.6110708223443,
+   "panjang_relatif_sisi_panjang_median": 0.21038191926396518
+  },
+  "1600 x 721": {
+   "n": 2,
+   "kelas": [
+    "Nannochloropsis"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 310.15333652665646,
+   "panjang_relatif_sisi_panjang_median": 0.19384583532916028
+  },
+  "4080 x 1840": {
+   "n": 5,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f15"
+   ],
+   "panjang_pita_berwarna_px_median": 670.8492385589726,
+   "panjang_relatif_sisi_panjang_median": 0.16442383298014035
+  },
+  "4080 x 3072": {
+   "n": 13,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f15",
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 651.5492386634767,
+   "panjang_relatif_sisi_panjang_median": 0.15969344084889134
+  }
+ },
+ "panjang_per_lensa_ukuran": {
+  "f15 | 4080 x 1840": {
+   "n": 5,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f15"
+   ],
+   "panjang_pita_berwarna_px_median": 670.8492385589726,
+   "panjang_relatif_sisi_panjang_median": 0.16442383298014035
+  },
+  "f15 | 4080 x 3072": {
+   "n": 11,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis",
+    "Spirulina"
+   ],
+   "lensa": [
+    "f15"
+   ],
+   "panjang_pita_berwarna_px_median": 645.2952768219758,
+   "panjang_relatif_sisi_panjang_median": 0.15816060706420976
+  },
+  "f20 | 1600 x 1204": {
+   "n": 3,
+   "kelas": [
+    "Chlorella",
+    "Nannochloropsis"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 336.6110708223443,
+   "panjang_relatif_sisi_panjang_median": 0.21038191926396518
+  },
+  "f20 | 1600 x 721": {
+   "n": 2,
+   "kelas": [
+    "Nannochloropsis"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 310.15333652665646,
+   "panjang_relatif_sisi_panjang_median": 0.19384583532916028
+  },
+  "f20 | 4080 x 3072": {
+   "n": 2,
+   "kelas": [
+    "Spirulina"
+   ],
+   "lensa": [
+    "f20"
+   ],
+   "panjang_pita_berwarna_px_median": 844.550538305783,
+   "panjang_relatif_sisi_panjang_median": 0.20699768095729976
+  }
+ },
+ "fraksi_jenuh_per_lensa": {
+  "f15": {
+   "median": 0.0,
+   "maks": 0.0087890625
+  },
+  "f20": {
+   "median": 0.0,
+   "maks": 0.0693359375
+  }
+ },
+ "gambar": "results/gambar/e2_3_tumpang_pita.pdf",
+ "citra": [
+  {
+   "nomor_panel": 1,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 1.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 661.0338184316082,
+   "panjang_relatif_sisi_panjang": 0.16201809275284515,
+   "lebar_pita_px": 173.01159064287864,
+   "sudut_sumbu_derajat": 84.85949596189458,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.78125,
+   "spearman_rona_sumbu": 0.9622591834328172,
+   "p_spearman_rona_sumbu": 9.478889777630193e-37,
+   "ditemukan": true,
+   "jumlah_titik_inti": 7615,
+   "faktor_koreksi_sampel_kecil": 1.0006567713122292,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 2,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 524.408129282052,
+   "panjang_relatif_sisi_panjang": 0.12853140423579704,
+   "lebar_pita_px": 137.10961276199023,
+   "sudut_sumbu_derajat": 87.64346553959344,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.84375,
+   "spearman_rona_sumbu": 0.9730880619692244,
+   "p_spearman_rona_sumbu": 3.1138376211483584e-41,
+   "ditemukan": true,
+   "jumlah_titik_inti": 4295,
+   "faktor_koreksi_sampel_kecil": 1.0011646866992778,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 3,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 3.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 567.1385346212473,
+   "panjang_relatif_sisi_panjang": 0.13900454279932534,
+   "lebar_pita_px": 121.58866085542927,
+   "sudut_sumbu_derajat": 82.72720501816252,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.796875,
+   "spearman_rona_sumbu": 0.9770476806114121,
+   "p_spearman_rona_sumbu": 2.376351822571889e-43,
+   "ditemukan": true,
+   "jumlah_titik_inti": 4407,
+   "faktor_koreksi_sampel_kecil": 1.0011350737797957,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 4,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 4.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 832.9972669240384,
+   "panjang_relatif_sisi_panjang": 0.20416599679510744,
+   "lebar_pita_px": 217.9282859071265,
+   "sudut_sumbu_derajat": 82.12533340335594,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.765625,
+   "spearman_rona_sumbu": 0.9807692307692307,
+   "p_spearman_rona_sumbu": 1.042088520802481e-45,
+   "ditemukan": true,
+   "jumlah_titik_inti": 12535,
+   "faktor_koreksi_sampel_kecil": 1.0003989467804995,
+   "titik_pita_bertambah_dengan_koreksi": 2
+  },
+  {
+   "nomor_panel": 5,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 614.499830919061,
+   "panjang_relatif_sisi_panjang": 0.1506127036566326,
+   "lebar_pita_px": 153.71396101631223,
+   "sudut_sumbu_derajat": 84.95549729009069,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.796875,
+   "spearman_rona_sumbu": 0.978192933026425,
+   "p_spearman_rona_sumbu": 4.944315531276067e-44,
+   "ditemukan": true,
+   "jumlah_titik_inti": 6738,
+   "faktor_koreksi_sampel_kecil": 1.0007422802850356,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 6,
+   "jalur": "data/Testing/F.15/Chorella/Chorella 6.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 1840",
+   "panjang_pita_berwarna_px": 677.5186598342908,
+   "panjang_relatif_sisi_panjang": 0.16605849505742423,
+   "lebar_pita_px": 169.85986690354815,
+   "sudut_sumbu_derajat": 81.66829920928774,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.765625,
+   "spearman_rona_sumbu": 0.9527102070439857,
+   "p_spearman_rona_sumbu": 8.951710122513592e-34,
+   "ditemukan": true,
+   "jumlah_titik_inti": 7764,
+   "faktor_koreksi_sampel_kecil": 1.0006441638752899,
+   "titik_pita_bertambah_dengan_koreksi": 5
+  },
+  {
+   "nomor_panel": 7,
+   "jalur": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 724.3202300553073,
+   "panjang_relatif_sisi_panjang": 0.1775294681508106,
+   "lebar_pita_px": 132.25399673936198,
+   "sudut_sumbu_derajat": 85.95044467416909,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.8125,
+   "spearman_rona_sumbu": 0.9168374180708059,
+   "p_spearman_rona_sumbu": 2.0812943350670178e-26,
+   "ditemukan": true,
+   "jumlah_titik_inti": 6237,
+   "faktor_koreksi_sampel_kecil": 1.0008019246190858,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 8,
+   "jalur": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 1840",
+   "panjang_pita_berwarna_px": 672.6488678745491,
+   "panjang_relatif_sisi_panjang": 0.1648649185967032,
+   "lebar_pita_px": 124.88289677256286,
+   "sudut_sumbu_derajat": 86.40917894565185,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.8125,
+   "spearman_rona_sumbu": 0.9415508599276098,
+   "p_spearman_rona_sumbu": 5.395337876737438e-31,
+   "ditemukan": true,
+   "jumlah_titik_inti": 5640,
+   "faktor_koreksi_sampel_kecil": 1.000886839304718,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 9,
+   "jalur": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 724.7310768755135,
+   "panjang_relatif_sisi_panjang": 0.17763016590086114,
+   "lebar_pita_px": 163.81381408820388,
+   "sudut_sumbu_derajat": 88.1540435789876,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0087890625,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.8125,
+   "spearman_rona_sumbu": 0.9407953481254017,
+   "p_spearman_rona_sumbu": 7.943722558097737e-31,
+   "ditemukan": true,
+   "jumlah_titik_inti": 7354,
+   "faktor_koreksi_sampel_kecil": 1.0006800870511425,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 10,
+   "jalur": "data/Testing/F.15/Nanno/Nanno 4.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 1840",
+   "panjang_pita_berwarna_px": 670.8492385589726,
+   "panjang_relatif_sisi_panjang": 0.16442383298014035,
+   "lebar_pita_px": 126.02463412559045,
+   "sudut_sumbu_derajat": 87.6840831167379,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.8125,
+   "spearman_rona_sumbu": 0.9284217997609155,
+   "p_spearman_rona_sumbu": 2.369379297042028e-28,
+   "ditemukan": true,
+   "jumlah_titik_inti": 5761,
+   "faktor_koreksi_sampel_kecil": 1.0008682062858134,
+   "titik_pita_bertambah_dengan_koreksi": 2
+  },
+  {
+   "nomor_panel": 11,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 1.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 645.2952768219758,
+   "panjang_relatif_sisi_panjang": 0.15816060706420976,
+   "lebar_pita_px": 123.51165821916288,
+   "sudut_sumbu_derajat": 87.05338060883962,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.859375,
+   "spearman_rona_sumbu": 0.9627857462369133,
+   "p_spearman_rona_sumbu": 6.17986269615898e-37,
+   "ditemukan": true,
+   "jumlah_titik_inti": 6477,
+   "faktor_koreksi_sampel_kecil": 1.0007722007722009,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 12,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 2.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 651.5492386634767,
+   "panjang_relatif_sisi_panjang": 0.15969344084889134,
+   "lebar_pita_px": 135.27832368102466,
+   "sudut_sumbu_derajat": 86.9896606713332,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.859375,
+   "spearman_rona_sumbu": 0.9597060374776413,
+   "p_spearman_rona_sumbu": 6.944374536338869e-36,
+   "ditemukan": true,
+   "jumlah_titik_inti": 8147,
+   "faktor_koreksi_sampel_kecil": 1.0006138735420504,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 13,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 626.8994386822685,
+   "panjang_relatif_sisi_panjang": 0.15365182320643836,
+   "lebar_pita_px": 122.52612228358545,
+   "sudut_sumbu_derajat": 88.8448615537995,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.84375,
+   "spearman_rona_sumbu": 0.9649717257960616,
+   "p_spearman_rona_sumbu": 9.772479122195644e-38,
+   "ditemukan": true,
+   "jumlah_titik_inti": 6198,
+   "faktor_koreksi_sampel_kecil": 1.000806972240155,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 14,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 1840",
+   "panjang_pita_berwarna_px": 625.0635318690044,
+   "panjang_relatif_sisi_panjang": 0.15320184604632459,
+   "lebar_pita_px": 148.47617832047243,
+   "sudut_sumbu_derajat": 91.63190510498431,
+   "ambang_kroma": 31.849999999999998,
+   "suku_ambang_aktif": "FRAKSI_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.84375,
+   "spearman_rona_sumbu": 0.9578744937147126,
+   "p_spearman_rona_sumbu": 2.681056771465243e-35,
+   "ditemukan": true,
+   "jumlah_titik_inti": 7525,
+   "faktor_koreksi_sampel_kecil": 1.0006646284726837,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 15,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 1840",
+   "panjang_pita_berwarna_px": 632.4624707224044,
+   "panjang_relatif_sisi_panjang": 0.15501531145156972,
+   "lebar_pita_px": 159.31353583817963,
+   "sudut_sumbu_derajat": 90.1416872400666,
+   "ambang_kroma": 35.349999999999994,
+   "suku_ambang_aktif": "FRAKSI_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.859375,
+   "spearman_rona_sumbu": 0.9611263736263734,
+   "p_spearman_rona_sumbu": 2.331492637726361e-36,
+   "ditemukan": true,
+   "jumlah_titik_inti": 8343,
+   "faktor_koreksi_sampel_kecil": 1.0005994485073733,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 16,
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 6.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 605.7360289001131,
+   "panjang_relatif_sisi_panjang": 0.14846471296571398,
+   "lebar_pita_px": 111.45268657698205,
+   "sudut_sumbu_derajat": 91.38314646875997,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.84375,
+   "spearman_rona_sumbu": 0.9726988633748925,
+   "p_spearman_rona_sumbu": 4.831883520148824e-41,
+   "ditemukan": true,
+   "jumlah_titik_inti": 4740,
+   "faktor_koreksi_sampel_kecil": 1.0010552975939215,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 17,
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 843.3081616612117,
+   "panjang_relatif_sisi_panjang": 0.20669317687774796,
+   "lebar_pita_px": 187.11688186777747,
+   "sudut_sumbu_derajat": 90.53078250426687,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.001953125,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.828125,
+   "spearman_rona_sumbu": 0.9651888234453968,
+   "p_spearman_rona_sumbu": 8.085306492345899e-38,
+   "ditemukan": true,
+   "jumlah_titik_inti": 13947,
+   "faktor_koreksi_sampel_kecil": 1.0003585514521334,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 18,
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "ukuran_citra_px": "4080 x 3072",
+   "panjang_pita_berwarna_px": 845.7929149503543,
+   "panjang_relatif_sisi_panjang": 0.20730218503685155,
+   "lebar_pita_px": 186.46542286180514,
+   "sudut_sumbu_derajat": 90.39357951779945,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0693359375,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.8125,
+   "spearman_rona_sumbu": 0.963951692953305,
+   "p_spearman_rona_sumbu": 2.343733392820337e-37,
+   "ditemukan": true,
+   "jumlah_titik_inti": 14041,
+   "faktor_koreksi_sampel_kecil": 1.000356150722986,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 19,
+   "jalur": "data/Testing/f.20/c1.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "ukuran_citra_px": "1600 x 1204",
+   "panjang_pita_berwarna_px": 355.09691447804664,
+   "panjang_relatif_sisi_panjang": 0.22193557154877916,
+   "lebar_pita_px": 81.76191511116924,
+   "sudut_sumbu_derajat": 87.97105472080632,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.75,
+   "spearman_rona_sumbu": 0.9738423689468406,
+   "p_spearman_rona_sumbu": 1.304286324585764e-41,
+   "ditemukan": true,
+   "jumlah_titik_inti": 14382,
+   "faktor_koreksi_sampel_kecil": 1.000347705146036,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 20,
+   "jalur": "data/Testing/f.20/c2.jpg",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "ukuran_citra_px": "1600 x 1204",
+   "panjang_pita_berwarna_px": 336.6110708223443,
+   "panjang_relatif_sisi_panjang": 0.21038191926396518,
+   "lebar_pita_px": 81.11555367921927,
+   "sudut_sumbu_derajat": 89.4822865746319,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.796875,
+   "spearman_rona_sumbu": 0.9870989165246995,
+   "p_spearman_rona_sumbu": 4.8269177315140555e-51,
+   "ditemukan": true,
+   "jumlah_titik_inti": 13892,
+   "faktor_koreksi_sampel_kecil": 1.000359971202304,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 21,
+   "jalur": "data/Testing/f.20/n1.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "ukuran_citra_px": "1600 x 1204",
+   "panjang_pita_berwarna_px": 306.61292062457056,
+   "panjang_relatif_sisi_panjang": 0.1916330753903566,
+   "lebar_pita_px": 34.54756748995305,
+   "sudut_sumbu_derajat": 91.06826641223624,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.765625,
+   "spearman_rona_sumbu": 0.9877402443440668,
+   "p_spearman_rona_sumbu": 1.0029189092195931e-51,
+   "ditemukan": true,
+   "jumlah_titik_inti": 5682,
+   "faktor_koreksi_sampel_kecil": 1.0008802816901408,
+   "titik_pita_bertambah_dengan_koreksi": 1
+  },
+  {
+   "nomor_panel": 22,
+   "jalur": "data/Testing/f.20/n2.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "ukuran_citra_px": "1600 x 721",
+   "panjang_pita_berwarna_px": 316.70810869827454,
+   "panjang_relatif_sisi_panjang": 0.1979425679364216,
+   "lebar_pita_px": 34.06522709206187,
+   "sudut_sumbu_derajat": 88.68160338451479,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.78125,
+   "spearman_rona_sumbu": 0.9950319378051299,
+   "p_spearman_rona_sumbu": 7.69717491564244e-64,
+   "ditemukan": true,
+   "jumlah_titik_inti": 5991,
+   "faktor_koreksi_sampel_kecil": 1.0008348639171816,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  },
+  {
+   "nomor_panel": 23,
+   "jalur": "data/Testing/f.20/n3.jpg",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "ukuran_citra_px": "1600 x 721",
+   "panjang_pita_berwarna_px": 303.5985643550384,
+   "panjang_relatif_sisi_panjang": 0.189749102721899,
+   "lebar_pita_px": 38.48703797279065,
+   "sudut_sumbu_derajat": 88.44777755040279,
+   "ambang_kroma": 30,
+   "suku_ambang_aktif": "BATAS_KROMA",
+   "fraksi_jenuh_pita": 0.0,
+   "fraksi_grid_dalam_bingkai": 1.0,
+   "fraksi_sumbu_dalam_topeng": 0.796875,
+   "spearman_rona_sumbu": 0.9914717773169114,
+   "p_spearman_rona_sumbu": 1.3759698242080494e-56,
+   "ditemukan": true,
+   "jumlah_titik_inti": 7544,
+   "faktor_koreksi_sampel_kecil": 1.0006629541235748,
+   "titik_pita_bertambah_dengan_koreksi": 0
+  }
+ ]
+}

@@ -1,0 +1,1937 @@
+{
+ "batas_V_spektrum": 50.0,
+ "batas_korelasi_mirip": 0.95,
+ "ukuran_sidik": [
+  48,
+  64
+ ],
+ "jumlah_berkas_citra": 73,
+ "per_peran": {
+  "potongan uji air (Bab 4.1.1.2)": 6,
+  "grafik keluaran TA": 26,
+  "potongan ROI": 12,
+  "foto spektrum": 23,
+  "foto susunan alat": 6
+ },
+ "exif_berisi_tanggal": 6,
+ "exif_berisi_model": {
+  "Xiaomi 23108RN04Y": 6
+ },
+ "duplikat_byte": [
+  [
+   "data/Source Code/Images/1a.jpg",
+   "data/Testing/1a.jpg"
+  ],
+  [
+   "data/Source Code/Images/2a.jpg",
+   "data/Testing/2a.jpg"
+  ],
+  [
+   "data/Source Code/Images/3a.jpg",
+   "data/Testing/3a.jpg"
+  ],
+  [
+   "data/Source Code/Images/c1.jpg",
+   "data/Testing/c1.jpg"
+  ],
+  [
+   "data/Source Code/Images/n1.jpg",
+   "data/Testing/n1.jpg"
+  ],
+  [
+   "data/Source Code/Images/s1.jpg",
+   "data/Testing/s1.jpg"
+  ]
+ ],
+ "jejak_kuantisasi": {
+  "9f9d9007": {
+   "jumlah": 18,
+   "sisi_panjang": [
+    346,
+    371,
+    630,
+    683,
+    743,
+    812,
+    863,
+    1036,
+    1205,
+    1690,
+    1787,
+    2082
+   ],
+   "progresif": [
+    false
+   ],
+   "exif_model": [
+    "Xiaomi 23108RN04Y"
+   ],
+   "peran": [
+    "potongan ROI",
+    "potongan uji air (Bab 4.1.1.2)"
+   ]
+  },
+  "bb814605": {
+   "jumlah": 23,
+   "sisi_panjang": [
+    4080
+   ],
+   "progresif": [
+    true
+   ],
+   "exif_model": [],
+   "peran": [
+    "foto spektrum",
+    "foto susunan alat"
+   ]
+  },
+  "8ed5bc8e": {
+   "jumlah": 6,
+   "sisi_panjang": [
+    1600
+   ],
+   "progresif": [
+    true
+   ],
+   "exif_model": [],
+   "peran": [
+    "foto spektrum",
+    "foto susunan alat"
+   ]
+  }
+ },
+ "pasangan_hampir_sama": [
+  {
+   "a": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+   "b": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+   "r": 0.9823847911370142
+  },
+  {
+   "a": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.42_7f2e7236.jpg",
+   "b": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 03.13.31_177c9ddd.jpg",
+   "r": 0.9999895790263662
+  },
+  {
+   "a": "data/Testing/f.20/c1.jpg",
+   "b": "data/Testing/f.20/c2.jpg",
+   "r": 0.9786495260000249
+  }
+ ],
+ "sampel_per_kelas_lensa": {
+  "Chlorella": {
+   "f15": {
+    "citra": 6,
+    "hash_unik": 6,
+    "adegan_setelah_gabung_mirip": 6
+   },
+   "f20": {
+    "citra": 2,
+    "hash_unik": 2,
+    "adegan_setelah_gabung_mirip": 1
+   }
+  },
+  "Nannochloropsis": {
+   "f15": {
+    "citra": 4,
+    "hash_unik": 4,
+    "adegan_setelah_gabung_mirip": 4
+   },
+   "f20": {
+    "citra": 3,
+    "hash_unik": 3,
+    "adegan_setelah_gabung_mirip": 3
+   }
+  },
+  "Spirulina": {
+   "f15": {
+    "citra": 6,
+    "hash_unik": 6,
+    "adegan_setelah_gabung_mirip": 5
+   },
+   "f20": {
+    "citra": 2,
+    "hash_unik": 2,
+    "adegan_setelah_gabung_mirip": 2
+   }
+  }
+ },
+ "citra": [
+  {
+   "jalur": "data/Source Code/Hasil/1a (3).jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 290,
+   "tinggi": 1205,
+   "sha256": "ac745389a0f5396b5627f72ded8768b8f5d887823570de797a1bf44638d74dee",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 03:42:17",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 157.68803548433252
+  },
+  {
+   "jalur": "data/Source Code/Hasil/1a (4).jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 393,
+   "tinggi": 1690,
+   "sha256": "acb8765464ad637e8e24818328d62f874dbbe2570fb472124ea13a45786f1120",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 03:59:27",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 167.00424740653747
+  },
+  {
+   "jalur": "data/Source Code/Hasil/1a (5).jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 387,
+   "tinggi": 1787,
+   "sha256": "259ca69991f2027a40bdcc74fc3e5ce82651e95aa6a26810a6e8d8857012e1b9",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 03:59:27",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 166.46837553447307
+  },
+  {
+   "jalur": "data/Source Code/Hasil/1a (6).jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 308,
+   "tinggi": 863,
+   "sha256": "be766ab40461bba9611dae44e9f79bb03f78774be6b057781aceb1e022de7e79",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 04:14:28",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 148.4572090713458
+  },
+  {
+   "jalur": "data/Source Code/Hasil/1a.jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 448,
+   "tinggi": 2082,
+   "sha256": "75677700e7352cfda9eaf4cadc23cdc85b91eaaa99fdbafb0259127b0cb9d1bf",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 03:24:00",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 174.8012578049952
+  },
+  {
+   "jalur": "data/Source Code/Hasil/2a.jpg",
+   "peran": "potongan uji air (Bab 4.1.1.2)",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 354,
+   "tinggi": 1036,
+   "sha256": "edff430c10ec6cf3742625fa687cac600d2ca263493d8c20d9b068c8d6e7ba6a",
+   "exif": {
+    "merek": "Xiaomi",
+    "model": "23108RN04Y",
+    "tanggal": null,
+    "tanggal_asli": "2024:04:22 04:04:25",
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0",
+     "APP1",
+     "APP1"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 211.63698928953167
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_1.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "15a2ace093aafe60d4825c1d75124c78a422baf72ed59fe2b1a0f099b093ca6f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.77327916666667
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_10.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "cc5300135482f19ae297bc919a299b398a3c77fefa66cee0ef3e1ae25cb7c3a0",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.25135625
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_11.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "032a0b2b0daf8e88ae843f66062ec0b1af0f6b7f9ed22a2d91320798db3d8ffc",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.68691458333333
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_12.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "dc5e61f0c8cee2cec2eb41696e75eeea0c6f0a10ec5845dbcf7bf520b576bd2d",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 250.564709375
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_2.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "d099f2de1b65d1eea1e88153ba96361414c84c561d9a0eae46f6d42450f5aac9",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.73626875
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_3.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "e30731d00dca54fcfbda0aa6ff10f70cc50bbd63c5cc572eebd2fa30f2edd3ca",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.54744583333334
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_4.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "02486ec98a0912fdc3654d5ffa1463ed9f1b98d09eaa673f61315bc9e7a915e3",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 250.13700625
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_5.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "60454c279af57b94a63bed523dc9d83e7578527c0cc8ef5e5b321b5b7e640d7c",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.78047083333334
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_6.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "c2e26ae9ece160b299da03cbaff4b8017b7ba10466641989511fe055abc9c86d",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 250.71771875
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_7.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "ac3814e34a722a6c762b2246d475086c984d22903c2b54058b37e16e1a1ba965",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.44179791666667
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_8.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "02b6241b199629f2e0bef9a03c97868af380c9b884eeedd59456ee3a172725cb",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.353840625
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Figure_9.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "669dd4a629ccd7af0daa6a46a1a94254b33db116d44bc3f606dadc30432b25ab",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.41724583333334
+  },
+  {
+   "jalur": "data/Source Code/Hasil/Histogram Interseksi.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 600,
+   "sha256": "9d661fdc82d6c4ca95928f49f0d0832d1eb141bf74c852157851e31e8c6fb81f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 225.29107291666668
+  },
+  {
+   "jalur": "data/Source Code/Images/1a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 143,
+   "tinggi": 683,
+   "sha256": "f76b3a8dbe42d87ac31515fa02736bc7cd82d40ace36bd5b4f83ad1cc5cea39f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 115.0622817884897
+  },
+  {
+   "jalur": "data/Source Code/Images/2a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 154,
+   "tinggi": 743,
+   "sha256": "f33ee7cdcc891d82b7a1ca91f6ecc8858334882ddba32b4ed7e5ce74fa8c41a3",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 107.93012707346489
+  },
+  {
+   "jalur": "data/Source Code/Images/3a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 132,
+   "tinggi": 630,
+   "sha256": "2fa364e0a164e385e0bab0e65f52dbae63d2b0521438a5ea5f5de9b1aa73ccaa",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 121.07776575276576
+  },
+  {
+   "jalur": "data/Source Code/Images/c1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Chlorella",
+   "lensa": null,
+   "lebar": 79,
+   "tinggi": 371,
+   "sha256": "b41360d094360065444cc4907716b12944073736fe9c78c8f6ad76b89b9d6299",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 140.67788051451774
+  },
+  {
+   "jalur": "data/Source Code/Images/n1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Nannochloropsis",
+   "lensa": null,
+   "lebar": 89,
+   "tinggi": 346,
+   "sha256": "7dafef5ae2e091be55158face7b504aa78f409a7161af2d8ad9bb355758c8705",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 90.06511008638046
+  },
+  {
+   "jalur": "data/Source Code/Images/s1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Spirulina",
+   "lensa": null,
+   "lebar": 198,
+   "tinggi": 812,
+   "sha256": "aa023b59e2fe16ecbf0dd088b96a0d51c55efd669b2fa2df63e7c56c74b2c0a5",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 161.04194033935414
+  },
+  {
+   "jalur": "data/Testing/1a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 143,
+   "tinggi": 683,
+   "sha256": "f76b3a8dbe42d87ac31515fa02736bc7cd82d40ace36bd5b4f83ad1cc5cea39f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 115.0622817884897
+  },
+  {
+   "jalur": "data/Testing/2a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 154,
+   "tinggi": 743,
+   "sha256": "f33ee7cdcc891d82b7a1ca91f6ecc8858334882ddba32b4ed7e5ce74fa8c41a3",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 107.93012707346489
+  },
+  {
+   "jalur": "data/Testing/3a.jpg",
+   "peran": "potongan ROI",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 132,
+   "tinggi": 630,
+   "sha256": "2fa364e0a164e385e0bab0e65f52dbae63d2b0521438a5ea5f5de9b1aa73ccaa",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 121.07776575276576
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 1.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "91bda6b4ddd29418425c2e5d8cec60ba903a536d101bb0b0df01332d1132d7a7",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 5.8577837775735295
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "d96a50878ec69bcf607f246d0ebe94dc711445bea796b7854f4900e4b429faf0",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 3.9281294679330063
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 3.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "1fab6a932e6334cf2081025820ccc9427f60532f2c124e5587ef0ae010f16caf",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 5.01541077856924
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 4.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "18f3cfae664fe7ec0cfeb22a6530d83a94f69f89a234cd96b2142abe375659b0",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 8.605453112234477
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "c539a0e099dc5900794a146823e277ca6bc3762f80f15667f3e030eb2f9ae445",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 5.39659974341299
+  },
+  {
+   "jalur": "data/Testing/F.15/Chorella/Chorella 6.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 1840,
+   "tinggi": 4080,
+   "sha256": "bad7c22f994127b73a6cd18bcb5a3f031ab565627afc64dfeddee7f015c8bb1e",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 9.400070199275362
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "afb5cc6e48b522805c7526284c52fcfdc3f5966d4320d682a73b3978096ad439",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 12.169450747421365
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 1840,
+   "tinggi": 4080,
+   "sha256": "0c7c52809900637e7d70f3f285e4f7878a3321fdc13c6d4b830b30b857cd1885",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 13.89269514599318
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "2375362ed602f19d1cd7d611a3e2f9324bf1690e311b7ba545f89c240f51d813",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 17.678998081980186
+  },
+  {
+   "jalur": "data/Testing/F.15/Nanno/Nanno 4.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 1840,
+   "tinggi": 4080,
+   "sha256": "5689d4a290ad8d65722d57ccbe902a312d83bc3825e0680593fbe08dc2ce6984",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 15.294559755967605
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 1.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "471bebd88870d74db3222332c7ed6bdb8f622dab9313eabf3716355068277360",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 4.985069284875409
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 2.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "54225b1d3595c9f3f1f35d44f46766fdc615fac3ed90bc015e1125ae9c65d0f2",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 6.465073449627247
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "137ed4f80f79fc3468aee250926f7ac9ce0acc53f48e73e85fb021c1e951d940",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 4.803212364047181
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 1840,
+   "tinggi": 4080,
+   "sha256": "2dd35ff1d2dbca1dcc785a117303a1d85db5d869f543cf3bb770b232d0d5154f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 8.240472213341858
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 1840,
+   "tinggi": 4080,
+   "sha256": "5b1ffcdaabe831c4e217c019aa77916a42f789070b6c91b4f01b6b7913999211",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 10.847701806265984
+  },
+  {
+   "jalur": "data/Testing/F.15/Spirullina/Spirullina 6.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f15",
+   "sumber_label": "nama folder F.15",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "5a464dadb17b041f8e1dfb884ded16ebdadcffb24e974d186caacb1a964f5d11",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 3.79712424683415
+  },
+  {
+   "jalur": "data/Testing/c1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Chlorella",
+   "lensa": null,
+   "lebar": 79,
+   "tinggi": 371,
+   "sha256": "b41360d094360065444cc4907716b12944073736fe9c78c8f6ad76b89b9d6299",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 140.67788051451774
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.25.48_ba868194.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 4080,
+   "tinggi": 3072,
+   "sha256": "0b18a5944087671f2d2b720e10b900b60407f68fbd51a55dfb31286c30bad2b2",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 02:25:48",
+   "rerata_V_seluruh": 111.12906853170956
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "sumber_label": "konfirmasi penulis TA",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "ed5b2cdb1b11867e582e0d08ac6df529bbc2e832c5775ad2dd1cbbca9a46898e",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 02:44:10",
+   "rerata_V_seluruh": 10.093475780611724
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_299205d0.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 4080,
+   "tinggi": 3072,
+   "sha256": "e23f385066343f31a88c64f3e81ecd0fe3a12c91b95d2f933bdf314fc22f007a",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 02:44:11",
+   "rerata_V_seluruh": 157.83678010429432
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Spirulina",
+   "lensa": "f20",
+   "sumber_label": "konfirmasi penulis TA",
+   "lebar": 3072,
+   "tinggi": 4080,
+   "sha256": "df107c9c285667cff0d41169a0c15a12bfd577dfa941c72a380e63a87c40591e",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 02:44:11",
+   "rerata_V_seluruh": 11.091244526782067
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.42_7f2e7236.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 1600,
+   "tinggi": 1204,
+   "sha256": "e9e5ea3c7dd7e62ed12990404415f9327b98ae0e75ff79934293fab3c1eb8378",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 02:44:42",
+   "rerata_V_seluruh": 133.97937136627908
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 03.12.12_1c442835.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 4080,
+   "tinggi": 3072,
+   "sha256": "839294d47f60b1902b170a4c5c8ad21586f39275212222f38ded49096ade7d27",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 03:12:12",
+   "rerata_V_seluruh": 129.54593354268792
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 03.12.45_984449cf.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 4080,
+   "tinggi": 3072,
+   "sha256": "b525e95e400e3adc42100a02916e32e7c41a497b17bfac1555849fb6f8a3a16e",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 03:12:45",
+   "rerata_V_seluruh": 141.3196395175909
+  },
+  {
+   "jalur": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 03.13.31_177c9ddd.jpg",
+   "peran": "foto susunan alat",
+   "kelas": null,
+   "lensa": "f20",
+   "lebar": 4080,
+   "tinggi": 3072,
+   "sha256": "82e67be510dd8dfe18f4fec36617fae44bdd8c199a87a0a820db98cc53eea1d4",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "bb814605",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": "2024-06-19 03:13:31",
+   "rerata_V_seluruh": 133.83020338669323
+  },
+  {
+   "jalur": "data/Testing/f.20/c1.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "sumber_label": "awalan nama berkas f.20",
+   "lebar": 1204,
+   "tinggi": 1600,
+   "sha256": "547e2dbd4f4d594148da2a3adde1f8e0547ba9eaf71c727813a98335f1715f39",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 10.463521594684385
+  },
+  {
+   "jalur": "data/Testing/f.20/c2.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Chlorella",
+   "lensa": "f20",
+   "sumber_label": "awalan nama berkas f.20",
+   "lebar": 1204,
+   "tinggi": 1600,
+   "sha256": "ff5eead08b50f33bff94fbdbf122b48a968ce7acd6e93370a869b2cdbe0353be",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 10.58093075166113
+  },
+  {
+   "jalur": "data/Testing/f.20/n1.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "sumber_label": "awalan nama berkas f.20",
+   "lebar": 1204,
+   "tinggi": 1600,
+   "sha256": "5772edad5745fc81131dff26273dbda848e92a7cdd7ce025e11cb1f5d07db36b",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 11.80266922757475
+  },
+  {
+   "jalur": "data/Testing/f.20/n2.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "sumber_label": "awalan nama berkas f.20",
+   "lebar": 721,
+   "tinggi": 1600,
+   "sha256": "bd0fa3cfc28ea1592c7126170f7db0b9bbb246133116b69a537cbbda685b7d36",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 19.03567354368932
+  },
+  {
+   "jalur": "data/Testing/f.20/n3.jpg",
+   "peran": "foto spektrum",
+   "kelas": "Nannochloropsis",
+   "lensa": "f20",
+   "sumber_label": "awalan nama berkas f.20",
+   "lebar": 721,
+   "tinggi": 1600,
+   "sha256": "e4af4887ab9590a7fbd77fec1f8d9d0ca7242c6228fef996b1f2fb79e3c2152b",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "8ed5bc8e",
+    "progresif": true,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 20.85757454923717
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_1.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "66fd545e7ea5e714c6bd3158dd1242236cd8a712c65d821b2ef0226a55d8f49d",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.4917875
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_1a.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "7177fce51804b03e59f83b983449df70f5c9c2cfa88195af4828aef8124c49c6",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 248.79538125
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_2.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "0089d13a28f4f8d03bf3a55588e3d57d17d51ad64a09ed7f041c8e016d9b2896",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.69883958333332
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_2a.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "78ddbd8f89e84e7bacfc139c753081066ab6209707582d778ae210e1ff81d6c2",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.428303125
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_3.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "0824bddc3e58c3fc7ac607e905734564b6f363ffdf330d22a186c6308cdf7316",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.39753333333334
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_3a.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "e653aa16dc04583389ec554235026e18cc9678c77477dc81d92fba0de04bed23",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.19851875
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_c1.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "23edff4511e6539c65ea8a0144ec76852dccceb4bcc3dc86af861463bef967ec",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.28258125
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_c1a.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "8c4df6dc9f69ec8fac3241956cfc35579dd9f09e9a76518ebb6129bf05848d57",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 249.178865625
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_his.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 600,
+   "sha256": "7d01129fb6ae24cdb784cd1880c34cab16af94cd09cc0621e040271355167c58",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 226.40249375
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_n1.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "3071bcfdda4360c980b6a9568303bc4dec87934e3a8a30472af83950851a3eb0",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.67376875
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_n1a.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "fbaf4775b565807178959ec6e9b032de7e8dba6edac2f4120aeb48db5c51391f",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 248.330653125
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_s1 (2).png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 800,
+   "tinggi": 400,
+   "sha256": "defe1bc24906b7e509a300b1f8acce5df1d829e8d1281c5d4ac7bfb03e2e0052",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 248.70400625
+  },
+  {
+   "jalur": "data/Testing/grafik/Figure_s1.png",
+   "peran": "grafik keluaran TA",
+   "kelas": null,
+   "lensa": null,
+   "lebar": 1200,
+   "tinggi": 400,
+   "sha256": "29c6934dde2fa72d4106611d9d998a258a4ef4d2cdec040020d7e09f2922393c",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": null,
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 251.7109875
+  },
+  {
+   "jalur": "data/Testing/n1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Nannochloropsis",
+   "lensa": null,
+   "lebar": 89,
+   "tinggi": 346,
+   "sha256": "7dafef5ae2e091be55158face7b504aa78f409a7161af2d8ad9bb355758c8705",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 90.06511008638046
+  },
+  {
+   "jalur": "data/Testing/s1.jpg",
+   "peran": "potongan ROI",
+   "kelas": "Spirulina",
+   "lensa": null,
+   "lebar": 198,
+   "tinggi": 812,
+   "sha256": "aa023b59e2fe16ecbf0dd088b96a0d51c55efd669b2fa2df63e7c56c74b2c0a5",
+   "exif": {
+    "merek": null,
+    "model": null,
+    "tanggal": null,
+    "tanggal_asli": null,
+    "orientasi": null,
+    "perangkat_lunak": null
+   },
+   "jpeg": {
+    "tabel_kuantisasi": "9f9d9007",
+    "progresif": false,
+    "penanda_app": [
+     "APP0"
+    ]
+   },
+   "tanggal_dari_nama": null,
+   "rerata_V_seluruh": 161.04194033935414
+  }
+ ]
+}

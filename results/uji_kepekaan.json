@@ -1,0 +1,689 @@
+{
+ "n": 23,
+ "n_f15": 16,
+ "klasifier": "1-NN, LOO",
+ "korelasi": "Pearson profil 3 x 64 per foto terhadap profil bawaan, digabung tiga kanal dan per kanal R, G, B; profil dengan TITIK_SUMBU lain diinterpolasi linear ke 64 titik per kanal",
+ "bawaan": {
+  "loo_1nn_benar": 23,
+  "f15_loo_1nn_benar": 16
+ },
+ "sapuan": {
+  "BATAS_KROMA": {
+   "bawaan": 30,
+   "hasil": [
+    {
+     "nilai": 10,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.6707121599789219,
+     "foto_korelasi_min": "data/Testing/f.20/n3.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.21873722094606285,
+      "G": 0.7956334576780332,
+      "B": 0.6919073562409752
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 3.jpg"
+     }
+    },
+    {
+     "nilai": 15,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.6707121599789219,
+     "foto_korelasi_min": "data/Testing/f.20/n3.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.21873722094606285,
+      "G": 0.7956334576780332,
+      "B": 0.6919073562409752
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 3.jpg"
+     }
+    },
+    {
+     "nilai": 20,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.7825367357305398,
+     "foto_korelasi_min": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.6048372463358703,
+      "G": 0.8302645693818892,
+      "B": 0.7353603041016111
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 3.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 3.jpg"
+     }
+    },
+    {
+     "nilai": 25,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9682101051860154,
+     "foto_korelasi_min": "data/Testing/f.20/c2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9235331701651639,
+      "G": 0.973296551087957,
+      "B": 0.9774702069799239
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c2.jpg",
+      "G": "data/Testing/f.20/c2.jpg",
+      "B": "data/Testing/f.20/c2.jpg"
+     }
+    },
+    {
+     "nilai": 30,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9999999999999998,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9999999999999998,
+      "G": 0.9999999999999999,
+      "B": 0.9999999999999998
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 35,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9564685004106958,
+     "foto_korelasi_min": "data/Testing/f.20/c1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9159681373549173,
+      "G": 0.9700266530181092,
+      "B": 0.9609769771728933
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c1.jpg",
+      "G": "data/Testing/f.20/c1.jpg",
+      "B": "data/Testing/f.20/c1.jpg"
+     }
+    },
+    {
+     "nilai": 40,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9218375046772925,
+     "foto_korelasi_min": "data/Testing/f.20/c1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.8486564924118862,
+      "G": 0.9480595804631589,
+      "B": 0.9291811495053992
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c1.jpg",
+      "G": "data/Testing/f.20/c1.jpg",
+      "B": "data/Testing/f.20/c1.jpg"
+     }
+    },
+    {
+     "nilai": 50,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.854371674905705,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.7131900047438288,
+      "G": 0.9201801872775126,
+      "B": 0.848723685333987
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 4.jpg",
+      "G": "data/Testing/f.20/c1.jpg",
+      "B": "data/Testing/F.15/Chorella/Chorella 1.jpg"
+     }
+    },
+    {
+     "nilai": 60,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.035972494544272614,
+     "foto_korelasi_min": "data/Testing/f.20/n1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": -0.1685934727031058,
+      "G": -0.2306894771346902,
+      "B": -0.28176428473635323
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n1.jpg",
+      "G": "data/Testing/f.20/n1.jpg",
+      "B": "data/Testing/f.20/n1.jpg"
+     }
+    }
+   ],
+   "loo_1nn_benar_min": 23,
+   "f15_loo_1nn_benar_min": 16,
+   "korelasi_profil_min": 0.035972494544272614,
+   "korelasi_per_kanal_min": {
+    "R": -0.1685934727031058,
+    "G": -0.2306894771346902,
+    "B": -0.28176428473635323
+   }
+  },
+  "FRAKSI_KROMA": {
+   "bawaan": 0.35,
+   "hasil": [
+    {
+     "nilai": 0.15,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9990004105470286,
+     "foto_korelasi_min": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.99953167131097,
+      "G": 0.9994099195011429,
+      "B": 0.9986386613615108
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 5.jpg"
+     }
+    },
+    {
+     "nilai": 0.25,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9990004105470286,
+     "foto_korelasi_min": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.99953167131097,
+      "G": 0.9994099195011429,
+      "B": 0.9986386613615108
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 5.jpg"
+     }
+    },
+    {
+     "nilai": 0.3,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9994053426297883,
+     "foto_korelasi_min": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9995552766665444,
+      "G": 0.9996465362803554,
+      "B": 0.9992084883667934
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 5.jpg"
+     }
+    },
+    {
+     "nilai": 0.35,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9999999999999998,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9999999999999998,
+      "G": 0.9999999999999999,
+      "B": 0.9999999999999998
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 0.4,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9911132022144564,
+     "foto_korelasi_min": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9881260981516842,
+      "G": 0.9944074817714215,
+      "B": 0.9906301310148243
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+      "G": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg",
+      "B": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.10_df514fb0.jpg"
+     }
+    },
+    {
+     "nilai": 0.45,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9731997128492987,
+     "foto_korelasi_min": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9583679810924519,
+      "G": 0.9824254948042911,
+      "B": 0.9741517126812718
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+      "G": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+      "B": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg"
+     }
+    },
+    {
+     "nilai": 0.55,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.924979489424957,
+     "foto_korelasi_min": "data/Testing/f.20/c1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.8547282185220024,
+      "G": 0.9499396774123681,
+      "B": 0.9321310542904295
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c1.jpg",
+      "G": "data/Testing/f.20/c1.jpg",
+      "B": "data/Testing/f.20/c1.jpg"
+     }
+    },
+    {
+     "nilai": 0.7,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.8760889645371155,
+     "foto_korelasi_min": "data/Testing/f.20/c1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.7597021341615735,
+      "G": 0.9209105071416154,
+      "B": 0.886418196597116
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c1.jpg",
+      "G": "data/Testing/f.20/c1.jpg",
+      "B": "data/Testing/f.20/c1.jpg"
+     }
+    }
+   ],
+   "loo_1nn_benar_min": 23,
+   "f15_loo_1nn_benar_min": 16,
+   "korelasi_profil_min": 0.8760889645371155,
+   "korelasi_per_kanal_min": {
+    "R": 0.7597021341615735,
+    "G": 0.9209105071416154,
+    "B": 0.886418196597116
+   }
+  },
+  "PERSENTIL_INTI": {
+   "bawaan": 60,
+   "hasil": [
+    {
+     "nilai": 30,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9600633837649879,
+     "foto_korelasi_min": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.8709005537659261,
+      "G": 0.9687540797844654,
+      "B": 0.9735821036268771
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg",
+      "B": "data/Testing/f.20/WhatsApp Image 2024-06-19 at 02.44.11_d78d8998.jpg"
+     }
+    },
+    {
+     "nilai": 40,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9809011614206894,
+     "foto_korelasi_min": "data/Testing/f.20/c2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9376517447892607,
+      "G": 0.9800954927748482,
+      "B": 0.9890357495423867
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c2.jpg",
+      "G": "data/Testing/f.20/c2.jpg",
+      "B": "data/Testing/F.15/Chorella/Chorella 6.jpg"
+     }
+    },
+    {
+     "nilai": 50,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9958418759206846,
+     "foto_korelasi_min": "data/Testing/f.20/c2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9861986976740016,
+      "G": 0.9959774333831926,
+      "B": 0.9968896949025058
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/c2.jpg",
+      "G": "data/Testing/f.20/n3.jpg",
+      "B": "data/Testing/F.15/Chorella/Chorella 6.jpg"
+     }
+    },
+    {
+     "nilai": 60,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9999999999999998,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9999999999999998,
+      "G": 0.9999999999999999,
+      "B": 0.9999999999999998
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 70,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9888060309314719,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9881064264367707,
+      "G": 0.9964962812207613,
+      "B": 0.9952742486859805
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 1.jpg"
+     }
+    },
+    {
+     "nilai": 80,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.21680237730575488,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": -0.2828896500340033,
+      "G": 0.7387448068739756,
+      "B": 0.17993441236797372
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "B": "data/Testing/F.15/Chorella/Chorella 2.jpg"
+     }
+    },
+    {
+     "nilai": 90,
+     "loo_1nn_benar": 21,
+     "f15_loo_1nn_benar": 14,
+     "korelasi_profil_min": -0.0543479627555782,
+     "foto_korelasi_min": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+     "korelasi_per_kanal_min": {
+      "R": -0.7556162476142133,
+      "G": 0.5350525887795818,
+      "B": -0.4532249955727738
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Spirullina/Spirullina 5.jpg",
+      "G": "data/Testing/F.15/Spirullina/Spirullina 4.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 4.jpg"
+     }
+    }
+   ],
+   "loo_1nn_benar_min": 21,
+   "f15_loo_1nn_benar_min": 14,
+   "korelasi_profil_min": -0.0543479627555782,
+   "korelasi_per_kanal_min": {
+    "R": -0.7556162476142133,
+    "G": 0.5350525887795818,
+    "B": -0.4532249955727738
+   }
+  },
+  "TITIK_SUMBU": {
+   "bawaan": 64,
+   "hasil": [
+    {
+     "nilai": 16,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9963636594762004,
+     "foto_korelasi_min": "data/Testing/f.20/n1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.990006307506756,
+      "G": 0.9952473276322512,
+      "B": 0.9957530390762628
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/f.20/n1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 32,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9987475977192382,
+     "foto_korelasi_min": "data/Testing/f.20/n1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9963149206958516,
+      "G": 0.9980941320932921,
+      "B": 0.9993509224111022
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n1.jpg",
+      "G": "data/Testing/f.20/n1.jpg",
+      "B": "data/Testing/f.20/n1.jpg"
+     }
+    },
+    {
+     "nilai": 48,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9996173409341711,
+     "foto_korelasi_min": "data/Testing/f.20/n3.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.998789688965634,
+      "G": 0.9994516455801381,
+      "B": 0.9997848260368477
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n3.jpg",
+      "G": "data/Testing/f.20/n1.jpg",
+      "B": "data/Testing/f.20/n3.jpg"
+     }
+    },
+    {
+     "nilai": 64,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9999999999999998,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9999999999999998,
+      "G": 0.9999999999999999,
+      "B": 0.9999999999999998
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 96,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9998457385681507,
+     "foto_korelasi_min": "data/Testing/f.20/n2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9994529765199597,
+      "G": 0.999798311577659,
+      "B": 0.9999377183740605
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/f.20/n2.jpg",
+      "G": "data/Testing/f.20/n2.jpg",
+      "B": "data/Testing/f.20/n2.jpg"
+     }
+    },
+    {
+     "nilai": 128,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9998989178191134,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9997668352787147,
+      "G": 0.9998501318335425,
+      "B": 0.9999413734747127
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 2.jpg"
+     }
+    }
+   ],
+   "loo_1nn_benar_min": 23,
+   "f15_loo_1nn_benar_min": 16,
+   "korelasi_profil_min": 0.9963636594762004,
+   "korelasi_per_kanal_min": {
+    "R": 0.990006307506756,
+    "G": 0.9952473276322512,
+    "B": 0.9957530390762628
+   }
+  },
+  "TITIK_LINTANG": {
+   "bawaan": 16,
+   "hasil": [
+    {
+     "nilai": 4,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9883218101761805,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9798182808809368,
+      "G": 0.9815322169756948,
+      "B": 0.9917026571670869
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 4.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 1.jpg"
+     }
+    },
+    {
+     "nilai": 8,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9990722852500258,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.999002233788556,
+      "G": 0.998857999983394,
+      "B": 0.9995618535955026
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 1.jpg"
+     }
+    },
+    {
+     "nilai": 12,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9998292139292746,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9997259422035035,
+      "G": 0.9997753446682348,
+      "B": 0.9999030000851648
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 2.jpg"
+     }
+    },
+    {
+     "nilai": 16,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9999999999999998,
+     "foto_korelasi_min": "data/Testing/F.15/Chorella/Chorella 5.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9999999999999998,
+      "G": 0.9999999999999999,
+      "B": 0.9999999999999998
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Chorella/Chorella 2.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Spirullina/Spirullina 2.jpg"
+     }
+    },
+    {
+     "nilai": 24,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9998717907089121,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.9998487913745082,
+      "G": 0.9998704491841749,
+      "B": 0.9999310840581006
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 1.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 2.jpg"
+     }
+    },
+    {
+     "nilai": 32,
+     "loo_1nn_benar": 23,
+     "f15_loo_1nn_benar": 16,
+     "korelasi_profil_min": 0.9998021313571915,
+     "foto_korelasi_min": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+     "korelasi_per_kanal_min": {
+      "R": 0.99975597177306,
+      "G": 0.9998214392833034,
+      "B": 0.9999097479583272
+     },
+     "foto_korelasi_per_kanal_min": {
+      "R": "data/Testing/F.15/Nanno/Nanno 3.jpg",
+      "G": "data/Testing/F.15/Nanno/Nanno 2.jpg",
+      "B": "data/Testing/F.15/Nanno/Nanno 2.jpg"
+     }
+    }
+   ],
+   "loo_1nn_benar_min": 23,
+   "f15_loo_1nn_benar_min": 16,
+   "korelasi_profil_min": 0.9883218101761805,
+   "korelasi_per_kanal_min": {
+    "R": 0.9798182808809368,
+    "G": 0.9815322169756948,
+    "B": 0.9917026571670869
+   }
+  }
+ }
+}
